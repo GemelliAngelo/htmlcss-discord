@@ -135,6 +135,10 @@ button[type="button"] {
 
 /* MAIN */
 
+.box:nth-child(even) {
+  background-color: #d2d2d2;
+}
+
 .section-title {
   font-size: 2.8rem;
 }
@@ -187,7 +191,7 @@ div.text.container {
 
 .main-footer-box {
   padding: 50px;
-  margin: 0 0 50px;
+  background-color: #d2d2d2;
 }
 
 img[alt="stars-decoration"] {
