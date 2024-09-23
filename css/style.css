@@ -30,64 +30,60 @@ footer {
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 1080px;
   max-width: 100%;
 }
 
 /* HEADER */
 
 .upper-header {
-  background-color: #acd6e4;
-  padding: 10px 0;
-  font-size: 1.3rem;
+  background-color: #255ee9;
+  padding: 15px 0;
 }
 
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d7a522;
   padding: 0px;
 }
 
 .logo {
   padding: 5px 10px;
-  border: 2px dashed black;
   width: 20%;
   max-width: 100%;
 }
 
 .link-list {
   padding: 5px;
-  border: 2px dashed black;
   width: 100%;
   max-width: 100%;
 }
 
 .login {
   padding: 5px 10px;
-  border: 2px dashed black;
-  width: 20%;
+  width: fit-content;
+  border: none;
+  border-radius: 30px;
   max-width: 100%;
-  text-align: end;
 }
 
 .link-item {
   text-decoration: none;
-  color: inherit;
-  margin: 0 3px;
+  color: white;
+  margin: 0 15px;
 }
 
 .bottom-header {
   display: flex;
-  background-color: #010088;
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
   padding: 40px 0;
   justify-content: center;
   align-items: center;
 }
 
 .header-content {
-  background-color: #ec81eb;
   border: 2px dashed black;
   min-height: 350px;
   width: 700px;
