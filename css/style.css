@@ -19,6 +19,7 @@ nav {
 .box {
   display: flex;
   align-items: center;
+  margin: 100px 0 200px;
 }
 
 footer {
@@ -134,8 +135,12 @@ button[type="button"] {
 
 /* MAIN */
 
-h2 {
+.main-title {
   font-size: 2.8rem;
+}
+
+.main-description {
+  font-size: larger;
 }
 
 .box:nth-child(even) > .container {
