@@ -231,8 +231,26 @@ footer > .container {
 
 .footer-small-column {
   width: 30%;
-  background-color: #ee8081;
-  border: 2px dashed black;
+}
+
+.footer-title {
+  color: #7289da;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+
+.language-selector {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.language {
+  color: white;
+}
+
+.language::after {
+  content: "\02C7";
 }
 
 .big-footer-box > .container {
