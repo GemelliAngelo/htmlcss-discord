@@ -135,11 +135,11 @@ button[type="button"] {
 
 /* MAIN */
 
-.main-title {
+.section-title {
   font-size: 2.8rem;
 }
 
-.main-description {
+.section-description {
   font-size: larger;
 }
 
@@ -165,13 +165,24 @@ button[type="button"] {
   padding: 20px;
 }
 
-.big-column:only-child {
-  background-color: #228822;
-  width: 100%;
+.big-section.box {
+  display: flex;
+  margin: 100px 0 200px;
 }
 
-#last-main-container {
-  min-height: 900px;
+.big-section.box > .container {
+  flex-direction: column;
+}
+
+div.text.container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.big-column:only-child {
+  width: 100%;
 }
 
 /* FOOOTER */
