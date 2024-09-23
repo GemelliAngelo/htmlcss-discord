@@ -263,6 +263,12 @@ footer > .container {
   content: "\02C7";
 }
 
+.social {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
 .big-footer-box > .container {
   display: flex;
   min-height: 510px;
