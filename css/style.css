@@ -167,7 +167,7 @@ button[type="button"] {
 
 .big-section.box {
   display: flex;
-  margin: 100px 0 200px;
+  margin: 100px 0 0;
 }
 
 .big-section.box > .container {
@@ -185,7 +185,38 @@ div.text.container {
   width: 100%;
 }
 
-/* FOOOTER */
+.main-footer-box {
+  padding: 50px;
+  margin: 0 0 50px;
+}
+
+img[alt="stars-decoration"] {
+  width: 60%;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-footer-button::before {
+  content: "\2193";
+}
+
+.main-footer-title {
+  font-size: 2rem;
+}
+
+.main-footer-button {
+  color: white;
+  background-color: #7289da;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 50px 0;
+}
+
+/* FOOTER */
 
 .big-footer-box {
   display: flex;
