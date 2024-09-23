@@ -19,7 +19,7 @@ nav {
 .box {
   display: flex;
   align-items: center;
-  margin: 100px 0 200px;
+  /* margin: 100px 0 200px; */
 }
 
 footer {
@@ -171,7 +171,6 @@ button[type="button"] {
 
 .big-section.box {
   display: flex;
-  margin: 100px 0 0;
 }
 
 .big-section.box > .container {
