@@ -26,6 +26,13 @@ footer {
   padding-top: 10px;
 }
 
+button[type="button"] {
+  padding: 10px 15px;
+  width: fit-content;
+  border: none;
+  border-radius: 30px;
+}
+
 /* UTILS */
 
 .container {
@@ -35,6 +42,8 @@ footer {
 }
 
 /* HEADER */
+
+/* UPPER HEADERS */
 
 .upper-header {
   background-color: #255ee9;
@@ -61,10 +70,7 @@ footer {
 }
 
 .login {
-  padding: 5px 10px;
-  width: fit-content;
-  border: none;
-  border-radius: 30px;
+  font-size: 1rem;
   max-width: 100%;
 }
 
@@ -73,6 +79,8 @@ footer {
   color: white;
   margin: 0 15px;
 }
+
+/* BOTTOM HEADER */
 
 .bottom-header {
   display: flex;
@@ -84,9 +92,29 @@ footer {
 }
 
 .header-content {
-  border: 2px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  color: white;
   min-height: 350px;
-  width: 700px;
+}
+
+.header-title {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 10px 0;
+}
+
+.header-button-section > button {
+  font-size: 6rem;
 }
 
 /* MAIN */
