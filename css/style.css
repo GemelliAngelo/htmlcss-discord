@@ -134,30 +134,30 @@ button[type="button"] {
 
 /* MAIN */
 
+h2 {
+  font-size: 2.8rem;
+}
+
 .box:nth-child(even) > .container {
   flex-direction: row-reverse;
 }
 
-main > section:nth-child(even) {
-  background-color: #d2d2d2;
-}
-
 .box .container {
   display: flex;
-  min-height: 450px;
   padding: 40px 0;
 }
 
 .big-column {
   width: 60%;
-  background-color: #1e8ff7;
-  border: 2px dashed black;
 }
 
 .small-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
   width: 40%;
-  background-color: #f9bfcb;
-  border: 2px dashed black;
+  padding: 20px;
 }
 
 .big-column:only-child {
